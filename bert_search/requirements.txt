@@ -1,0 +1,4 @@
+bert-serving-server
+nltk
+pandas
+sklearn
