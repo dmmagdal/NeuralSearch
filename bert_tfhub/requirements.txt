@@ -1,0 +1,4 @@
+seaborn
+sklearn
+tensorflow-hub
+tensorflow-text
