@@ -1,0 +1,8 @@
+matplotlib
+nltk
+numpy
+pandas
+seaborn
+sklearn
+tensorflow-hub
+tensorflow-text

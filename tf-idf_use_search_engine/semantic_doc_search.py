@@ -5,7 +5,7 @@
 # Source: https://medium.com/analytics-vidhya/build-your-semantic-
 # document-search-engine-with-tf-idf-and-google-use-c836bf5f27fb
 # Source (Github): https://github.com/zayedrais/DocumentSearchEngine
-# Tensorflow 2.7
+# Tensorflow 2.4
 # Python 3.7
 # Windows/MacOS/Linux
 
@@ -435,7 +435,10 @@ def main():
 
 
 	# test the search:
+	print("Search: computer science")
 	print(searchDocument("computer science"))
+	print("Search: semantic search")
+	print(searchDocument("semantic search"))
 
 	# Conclusion
 	# The Google USE model is providing the semantic search result
