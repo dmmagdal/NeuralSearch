@@ -277,7 +277,7 @@ def main():
 
 
 	# Testing the function.
-	cosine_similarity_T(10, "computer science")
+	print(cosine_similarity_T(10, "computer science"))
 
 	# 2) Document search engine with Google Universal Sentence Encoder.
 	# Introduction to Google USE. The pre-trained Universal Sentence
@@ -369,8 +369,8 @@ def main():
 		directory = "./googleUSEModel/TrainModel/" + str(i)
 		if not os.path.exists(directory):
 			os.makedirs(directory)
-		print(i, j)
-		m = embed(df_news.content[i:j])
+		print(j, i)
+		m = embed(df_news.content[j:i])
 		exported_m = tf.train.Checkpoint(v=tf.Variable(m))
 		exported_m.f = tf.function(
 			lambda x: exported_m.v * x,

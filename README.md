@@ -21,3 +21,8 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
  - Status: Abandoned (No source code to reference)
  - Source: https://towardsdatascience.com/text-summarization-from-scratch-using-encoder-decoder-network-with-attention-in-keras-5fa80d12710e
  - Description: Summarizing text from new articles to generate meaningful headlines using an Encoder-Decoder with Attention in Keras.
+
+### tf-idf_use_search_engine
+ - Status WIP
+ - Source: https://medium.com/analytics-vidhya/build-your-semantic-document-search-engine-with-tf-idf-and-google-use-c836bf5f27fb
+ - Description: Build a semantic document search engine with TF-IDF and Google's USE. 
