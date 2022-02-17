@@ -5,7 +5,7 @@
 # Python 3.7
 
 
-import tensorflow_hub as hub
+import tensorflow_datasets as tfds
 
 
 def main():
