@@ -17,12 +17,21 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
  - Source: https://www.tensorflow.org/text/tutorials/fine_tune_bert
  - Description: Work through fine-tuning a BERT model using the tensorflow-models pip package. The pretrained BERT model is on Tensorflow Hub.
 
+### finetune_bert4search
+ - Status: Abandoned (No dataset used in example to reference)
+ - Source: https://towardsdatascience.com/fine-tuning-a-bert-model-for-search-applications-33a7a442b9d0
+ - Description: Fine-tuning a BERT model for search applications.
+
 ### text_summarization_encoderdecoder
  - Status: Abandoned (No source code to reference)
  - Source: https://towardsdatascience.com/text-summarization-from-scratch-using-encoder-decoder-network-with-attention-in-keras-5fa80d12710e
  - Description: Summarizing text from new articles to generate meaningful headlines using an Encoder-Decoder with Attention in Keras.
 
 ### tf-idf_use_search_engine
- - Status WIP
+ - Status:S WIP
  - Source: https://medium.com/analytics-vidhya/build-your-semantic-document-search-engine-with-tf-idf-and-google-use-c836bf5f27fb
  - Description: Build a semantic document search engine with TF-IDF and Google's USE. 
+
+
+## Additional reads:
+ - https://medium.com/@blogsupport/neural-information-retrieval-google-bert-6ce3cbabf7ff
