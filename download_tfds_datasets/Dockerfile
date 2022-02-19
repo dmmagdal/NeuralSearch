@@ -23,5 +23,6 @@ ADD . /download
 RUN python3 -m pip install --upgrade pip
 RUN pip3 install -r requirements.txt
 
-# Run the download_data.py program.
+# Run the download_data.py program. Use a volume to persist downloaded
+# data onto local machine.
 CMD ["python3", "download_data.py"]
