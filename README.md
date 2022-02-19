@@ -9,8 +9,13 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
 
 ### bert_tfhub
  - Status: Completed
- - Source: Use a matching preprocessing model to tokenize raw text and convert it to ids, generate the pooled and sequence output from the token input ids using the loaded (BERT) model, and look at the semantic similarity of the pooled outputs of different sentences.
- - Description: https://www.tensorflow.org/hub/tutorials/bert_experts
+ - Source: https://www.tensorflow.org/hub/tutorials/bert_experts
+ - Description: Use a matching preprocessing model to tokenize raw text and convert it to ids, generate the pooled and sequence output from the token input ids using the loaded (BERT) model, and look at the semantic similarity of the pooled outputs of different sentences.
+
+### download_tfds_datasets
+ - Status: Completed
+ - Source: N/A
+ - Description: Not an example of neural networks for semantic search but instead is for downloading tensorflow datasets locally to specified locations. The Dockerfile is required for use on Windows machines (must also use Docker volumes to persist data from the container to the local machine). Running the download_data.py script on Linux or MacOS does not require said Dockerfile and can be run natively.
 
 ### finetune_bert
  - Status: Completed
