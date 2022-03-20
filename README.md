@@ -38,9 +38,10 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
  - Description: Implement the TF-IDF algorithm from scratch in python.
 
 ### tf-idf_use_search_engine
- - Status: WIP
+ - Status: Completed
  - Source: https://medium.com/analytics-vidhya/build-your-semantic-document-search-engine-with-tf-idf-and-google-use-c836bf5f27fb
  - Description: Build a semantic document search engine with TF-IDF and Google's USE. 
+ - Note: Works on TF 2.7.0 bare metal and 2.4.0 Docker (apparently has some issues running bare metal on TF 2.4.0 on Windows laptop for some reason).
 
 
 ## Additional reads:
