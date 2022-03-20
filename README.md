@@ -32,8 +32,13 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
  - Source: https://towardsdatascience.com/text-summarization-from-scratch-using-encoder-decoder-network-with-attention-in-keras-5fa80d12710e
  - Description: Summarizing text from new articles to generate meaningful headlines using an Encoder-Decoder with Attention in Keras.
 
+### tf-idf_from_scratch
+ - Status: Completed
+ - Source: https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089
+ - Description: Implement the TF-IDF algorithm from scratch in python.
+
 ### tf-idf_use_search_engine
- - Status:S WIP
+ - Status: WIP
  - Source: https://medium.com/analytics-vidhya/build-your-semantic-document-search-engine-with-tf-idf-and-google-use-c836bf5f27fb
  - Description: Build a semantic document search engine with TF-IDF and Google's USE. 
 
