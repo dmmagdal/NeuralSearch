@@ -27,6 +27,11 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
  - Source: https://towardsdatascience.com/fine-tuning-a-bert-model-for-search-applications-33a7a442b9d0
  - Description: Fine-tuning a BERT model for search applications.
 
+### text_similarity_levenshtein_distance
+ - Status: Completed
+ - Source: https://towardsdatascience.com/text-similarity-w-levenshtein-distance-in-python-2f7478986e75
+ - Description: Build a plagiarism detection pipeline with by analyzing the similarity between texts using Levenshtein distance.
+
 ### text_summarization_encoderdecoder
  - Status: Abandoned (No source code to reference)
  - Source: https://towardsdatascience.com/text-summarization-from-scratch-using-encoder-decoder-network-with-attention-in-keras-5fa80d12710e
