@@ -107,8 +107,8 @@ def main():
 	print(df.iloc[5415, 1])
 
 	# Distances and indices returned by the search.
-	print(f"L2 distance: {D.flatten.tolist()}")
-	print(f"MAG paper IDs: {I.flatten.tolist()}")
+	print(f"L2 distance: {D.flatten().tolist()}")
+	print(f"MAG paper IDs: {I.flatten().tolist()}")
 
 	# Fetch paper titles based on the index.
 	print(
