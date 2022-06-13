@@ -81,7 +81,7 @@ def main():
 	# Create the index
 	# Step 1: Change data type to float32.
 	embeddings = np.array(
-		[embedding for embedding in embeddigs]
+		[embedding for embedding in embeddings]
 	).astype("float32")
 
 	# Step 2: Instantiate the index.
