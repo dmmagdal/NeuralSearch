@@ -127,10 +127,10 @@ def main():
 	query_search = '''
 WhatsApp was alleged to have been widely used to spread misinformation and propaganda during the 2018 elections in Brazil and the 2019 elections in India. Due to the private encrypted nature of the messages on WhatsApp, it is hard to track the dissemination of misinformation at scale. In this work, using public WhatsApp data from Brazil and India, we observe that misinformation has been largely shared on WhatsApp public groups even after they were already fact-checked by popular fact-checking agencies. This represents a significant portion of misinformation spread in both Brazil and India in the groups analyzed. We posit that such misinformation content could be prevented if WhatsApp had a means to flag already fact-checked content. To this end, we propose an architecture that could be implemented by WhatsApp to counter such misinformation. Our proposal respects the current end-to-end encryption architecture on WhatsApp, thus protecting users’ privacy while providing an approach to detect the misinformation that benefits from fact-checking efforts.
 '''
-	prin(f"Query search: {query_search}")
+	print(f"Query search: {query_search}")
 
 	# Query the index.
-	D, I = vector_search([user_query], model, index, num_results=10)
+	D, I = vector_search([query_search], model, index, num_results=10)
 
 	# Checking the paper title, most of the results look quite relevant
 	# to the search query.
