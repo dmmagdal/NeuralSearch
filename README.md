@@ -51,3 +51,4 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
 
 ## Additional reads:
  - https://medium.com/@blogsupport/neural-information-retrieval-google-bert-6ce3cbabf7ff
+ - https://towardsdatascience.com/semantic-textual-similarity-with-bert-fc800656e7a3
