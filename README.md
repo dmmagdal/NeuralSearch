@@ -17,6 +17,11 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
  - Source: N/A
  - Description: Not an example of neural networks for semantic search but instead is for downloading tensorflow datasets locally to specified locations. The Dockerfile is required for use on Windows machines (must also use Docker volumes to persist data from the container to the local machine). Running the download_data.py script on Linux or MacOS does not require said Dockerfile and can be run natively.
 
+### faiss_search
+ - Status: Completed
+ - Source: https://towardsdatascience.com/how-to-build-a-semantic-search-engine-with-transformers-and-faiss-dcbea307a0e8
+ - Description: Build a semantic search engine with transformers (such as BERT) and faiss.
+
 ### finetune_bert
  - Status: Completed
  - Source: https://www.tensorflow.org/text/tutorials/fine_tune_bert
