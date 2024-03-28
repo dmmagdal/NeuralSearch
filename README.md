@@ -12,6 +12,11 @@ Description: Create a semantic search engine with a neural network (i.e. BERT) w
  - Source: https://www.tensorflow.org/hub/tutorials/bert_experts
  - Description: Use a matching preprocessing model to tokenize raw text and convert it to ids, generate the pooled and sequence output from the token input ids using the loaded (BERT) model, and look at the semantic similarity of the pooled outputs of different sentences.
 
+### bm25_search
+ - Status: Completed
+ - Source: https://pub.aimind.so/understanding-the-bm25-ranking-algorithm-19f6d45c6ce
+ - Description: Build a document search engine with BM25. 
+
 ### download_tfds_datasets
  - Status: Completed
  - Source: N/A
